@@ -14,9 +14,16 @@ header {
      font-family: "Oswald", sans-serif;  
      height: 150px;
      width: 100%;
-     
+    display: inline-block;
+     text-align: left;
      
 }
+     
+
+     
+          
+     
+     
 
 
 form {
@@ -48,8 +55,8 @@ a.botao1:hover{
     
      font-size: 25px;
      text-decoration: none;
-     text-align: center;
-     align-items: center;
+    text-align: left;
+    display: flex;
      
     
     
@@ -65,15 +72,19 @@ transition: 0.5s;
 padding: 8px;
 padding-top: 1px;
 border-radius: 5px;
-text-align: center;
-align-items: center;
+
 
 }
 
 
 .imagem{
-    text-align: center;
-   align-items: center;
+    padding-bottom: 20px;
+    
+    
+
+    
+    
+    
     
     
 }
