@@ -4,7 +4,10 @@
 /* Estilos para o corpo da página iuijhu8huhuhuh*/
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin-left: 70px;
+    margin-top: 0;
+    position: relative;
+    left: 20px;
     background-color: white;
     min-height: 100vh;
     
@@ -21,16 +24,13 @@ header {
     display: flex;
     align-items: center; 
     text-align: center;
+    position: relative;
+    right: 20px;
 
     } 
 
-     
-          
-     
-     
 
-
-form {
+form{
     text-align: left;
 
 }
@@ -58,7 +58,7 @@ a.botao1:hover{
 
     position: relative;
     top: 43px;
-    left: 50px;
+    left: 140px;
      font-size: 20px;
      text-decoration: none;
     margin-bottom: 90px;
@@ -71,7 +71,7 @@ a.botao1:hover{
     content: " ";
     width: 0px;
     height: 4px;
-background-image: linear-gradient(45deg,#ff2500,#ff7100);
+background-image: linear-gradient(45deg,#000000,#ffffff);
 position: absolute;
 top: 30px;
 left: 0;
@@ -85,22 +85,19 @@ left: 0;
 
 .alinhando1:hover::after{
     width: 60px;
-    
-    
-
 
 }
 
-
+.banner{
+    position: relative;
+    right: 20px;
+}
 .imagem {
 
     position: relative;
     bottom: 5px;
-    right: 20px;
-   
+    right: 40px;
 
-
-    
 }
 
 h1{
@@ -118,9 +115,6 @@ h1{
     position: relative;
     bottom: 5px;
     left: 870px;
-    
-  
-     
 }
 
 button{
@@ -128,18 +122,122 @@ button{
     height: 40px;
     font-size: 20px;
     border-radius: 8px;
-    background:#d6249f;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, 
-    #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    background: black;
   color: white;
-
 }
 
+button:hover{
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+}
 
-.user{
+nav.menu-lateral{
     position: relative;
-    bottom: 51px;
-    left: 4px;
+    width: 55px;
+    height: 1000px;
+    background-color:rgb(0, 0, 0);
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 #7e7a7c;
+    position:fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    z-index: 999;
+
     
+
+}
+
+nav.menu-lateral.expandir{
+    width: 200px;
+
+
+
+
+}
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
     
 }
+.btn-expandir > i{
+color: white;
+font-size:24px ;
+cursor: pointer;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+    
+}
+ul li.ativo{
+    background: #494949;
+    border-radius: 8px;
+}
+
+.item-menu:hover{
+    background: #5a5a5a;
+    border-radius: 8px;
+}
+ul li.item-menu a{
+    color: white;
+    text-decoration: none;
+font-size: 20px;
+padding: 20px 4%;
+display: flex;
+margin-bottom: 20px;
+line-height:40px ;
+cursor: pointer;
+}
+
+ul li.item-menu a .txt-link{
+margin-left: 40px;
+
+}
+ul li.item-menu a.icon > i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+ul li.item-menu a .txt-link{
+    margin-left: 100px;
+    transition: .9s;
+    opacity: 0;
+
+
+
+}
+nav.menu-lateral.expandir .txt-link{
+    margin-left:30px;
+    opacity: 1;
+
+
+
+}
+li{
+    position: relative;
+    right: 30px;
+}
+
+   
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
