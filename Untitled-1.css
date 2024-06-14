@@ -10,13 +10,9 @@ body {
     left: 20px;
     background-color: white;
     min-height: 100vh;
-    
-
 }
-
 /* Estilos para o cabeçalho */
 header {
-    
     background-image: linear-gradient(to left ,rgba(15, 15, 15, 0.986),rgba(212, 140, 31, 0.904));
      font-family: "Oswald", sans-serif;  
      height: 150px;
@@ -26,24 +22,18 @@ header {
     text-align: center;
     position: relative;
     right: 20px;
-
-    } 
-
+    }
 
 form{
     text-align: left;
-
 }
-
-
 a.botao1{
-    
+
     border-radius: 5px;
    text-decoration: none;
     padding: 3px;
     text-align: center;
 }
-
 a.botao1:hover{
 
     background:rgba(12, 57, 204, 0.74);
@@ -76,16 +66,9 @@ position: absolute;
 top: 30px;
 left: 0;
     transition: 0.5s;
-
-
-
-
-
 }
-
 .alinhando1:hover::after{
     width: 60px;
-
 }
 
 .banner{
@@ -93,11 +76,9 @@ left: 0;
     right: 20px;
 }
 .imagem {
-
     position: relative;
     bottom: 5px;
     right: 40px;
-
 }
 
 h1{
@@ -145,17 +126,9 @@ nav.menu-lateral{
     overflow: hidden;
     transition: 0.5s;
     z-index: 999;
-
-    
-
 }
-
 nav.menu-lateral.expandir{
     width: 200px;
-
-
-
-
 }
 .btn-expandir{
     width: 100%;
@@ -205,16 +178,10 @@ ul li.item-menu a .txt-link{
     margin-left: 100px;
     transition: .9s;
     opacity: 0;
-
-
-
 }
 nav.menu-lateral.expandir .txt-link{
     margin-left:30px;
     opacity: 1;
-
-
-
 }
 li{
     position: relative;
